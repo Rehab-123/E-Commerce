@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 64px;
+    .container{
+        .search{
+            width: 260px;
+            height: 40px;
+            border-radius: 4px;
+            border: 0;
+            background-color: #7749F826;
+            @media screen and (max-width:767px) {
+                display: none;
+            }
+            i{
+                color: #343A4080;
+            }
+        input{
+            background-color: transparent;
+            border: 0;
+            outline: 0;
+            font-family: Chau Philomene One;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0%;
+            padding: 6px;
+            color: #343A4080;
+        }
+        }
+    }
+}
+.one{
+    .container{
+        width: 1040px;
+        max-width: 90%;
+        .card{
+            background-color: #FFFFFF;
+            border: 1px solid #DEE2E6;
+            border-radius: 12px;
+            img{
+                margin-bottom: 12px;
+                height: 190px;
+                border-radius: 12px 12px 0 0;
+            }
+            h2{
+                margin-bottom: 8px;
+                font-family: Chau Philomene One;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                padding-left: 12px;
+                color: #343A40;
+            }
+            b{
+                margin-bottom: 8px;
+                font-family: Chau Philomene One;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #7749F8;
+                padding-left: 12px;
+            }
+            p{
+                font-family: Chau Philomene One;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0%;
+                padding-left: 12px;
+                color: #343A40CC;
+            }
+            button{
+                height: 50px;
+                padding-left: 12px;
+                border: 0;
+                border-radius: 4px;
+                background-color: #7749F8;
+                font-family: Chau Philomene One;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+                color: white;
+                margin: 0 12px 12px 12px;
+                transition: all 0.3s ease;
+            }
+            button:hover{
+                background-color: #6236D9;
+                transform: scale(1.07);
+            }
+        }
+    }
+}
+footer{
+    border-top: 1px solid #343A401F;
+    padding: 48px 0;
+    @media screen and (max-width:767px) {
+        padding: 24px;
+    }
+    .start{
+    img{
+        width: 120px;
+        height: 120px;
+    }
+    p{
+        width: 193px;
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0%;
+        color: #343A40CC;
+    }
+    }
+    .mid{
+        h3{
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        color: #343A40;
+    }
+    p{
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0%;
+        color: #343A40CC;
+    }
+    }
+    .end{
+        h3{
+        font-family: Chau Philomene One;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        color: #343A40;
+        }
+        p{
+            font-family: Chau Philomene One;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0%;
+            color: #343A40CC;
+        }
+    }
+}
